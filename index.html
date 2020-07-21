@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Implementation</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" href="https://www.brandeps.com/icon-download/S/Stack-icon-vector-01.svg">
+</head>
+<body>
+    <div class="title">
+        <img src="https://www.standbasis.com/public/app-assets/images/logo/stack-logo-dark-big.png" alt="title-img" height="200px" width="100%">
+    </div>
+        <div class="container">
+            <div class="data">
+            <div class="input" >
+                <form action="/action_page.php">
+                    <label for="stackSize" >Stack-Size</label>
+                    <input type="number" id="stackSize" name="stackSize" min="1" max = "50" placeholder="Default size = 5">
+                </form>
+            </div>
+            <div class="operations">
+                <label for="pushElement">Enter element no:</label><br>
+                <input name="stackSize" type="text" id="pushElement">
+                <button id="push">Push</button>
+                <button id="pop">Pop</button>
+            </div>
+        </div>
+       
+        <div  id="result">Stack</div>
+        <div class="stack-container" id="stack"></div>
+        </div>
+    </div>
+        <script src="main.js"></script>
+</body>
+</html>
