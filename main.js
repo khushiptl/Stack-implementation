@@ -4,6 +4,7 @@ let stack_size = document.getElementById("stackSize");
 let status = document.getElementById("result");
 let stack = document.getElementById("stack");
 
+
 class Stack {
     constructor(){
 
