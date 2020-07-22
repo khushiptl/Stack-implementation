@@ -52,9 +52,6 @@ length(){
     return this.top;
 }
 }
-
-
-
 let finalstack = new Stack();
 
 
